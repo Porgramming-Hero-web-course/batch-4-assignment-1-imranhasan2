@@ -11,7 +11,7 @@
       this.year = year;
     }
 
-    getCarAge() {
+    getCarAge(): number {
       const currentDate = new Date().getFullYear();
       const carAge = currentDate - this.year;
       return carAge;
